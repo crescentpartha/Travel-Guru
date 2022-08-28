@@ -5,6 +5,7 @@ Table of Contents
   - [Basic Project Setup](#basic-project-setup)
     - [Project Setup 01](#project-setup-01)
     - [Project Setup 02](#project-setup-02)
+  - [Opacity control for background Image](#opacity-control-for-background-image)
 
 # Travel-Guru
 
@@ -39,5 +40,32 @@ Table of Contents
   - Install Firebase & Firebase Setup
 - Setup ___JSON data___ in the ___public___ folder 
 
+## Opacity control for background Image
 
+``` JavaScript
+// Basic idea is to create a outer and inner div. 
+// Header(outer div) will hold an image, while content(inner) 
+//will have a opacity
+const styles = {
+    header: {
+        backgroundImage: `url(${background})`,
+        height: '100vh',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+    },
+
+    content: {
+        height: '100%',
+        width: '100%',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    }
+}
+
+<div style={styles.header}>
+    <div style={styles.content}>
+        Portfolio
+    </div>
+</div>
+```
 

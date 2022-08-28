@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import logo from '../../../images/logo.png';
+import logo from '../../../images/logo-black.png';
 import app from '../../../images/app-store.png';
 import google from '../../../images/google-play.png';
 import payment from '../../../images/payment-method.png';
@@ -10,8 +10,8 @@ import payment from '../../../images/payment-method.png';
 
 const Footer = () => {
     return (
-        <div className='pt-5'>
-            <div className='bg-secondary d-flex flex-wrap py-5 gap-5 align-items-center justify-content-around'>
+        <div className='pt-5 bg-light'>
+            <div className='d-flex flex-wrap py-5 gap-5 align-items-center justify-content-around'>
                 <div className='text-start'>
                     <img src={logo} width={320} height={80} alt="" />
                     <div className='mt-4'>
@@ -56,7 +56,8 @@ const Footer = () => {
                     <img height={230} width={400} src={payment} alt="" />
                 </div>
             </div>
-            <div className='bg-info'>
+            <hr />
+            <div>
                 <p className='mb-0 p-4'>&copy;{new Date().getFullYear()} Travel-Guru LLC All rights reserved.</p>
             </div>
         </div>
