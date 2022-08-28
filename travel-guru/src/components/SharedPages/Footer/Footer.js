@@ -56,7 +56,7 @@ const Footer = () => {
                     <img height={230} width={400} src={payment} alt="" />
                 </div>
             </div>
-            <hr />
+            <hr className='mb-0' />
             <div>
                 <p className='mb-0 p-4'>&copy;{new Date().getFullYear()} Travel-Guru LLC All rights reserved.</p>
             </div>

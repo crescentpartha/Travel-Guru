@@ -3,7 +3,7 @@ import './App.css';
 import SignIn from './components/Authentication/SignIn/SignIn';
 import SignUp from './components/Authentication/SignUp/SignUp';
 import Home from './components/Home/Home/Home';
-import Header from './components/SharedPages/Header/Header';
+// import Header from './components/SharedPages/Header/Header';
 import Footer from './components/SharedPages/Footer/Footer';
 import NotFound from './components/SharedPages/NotFound/NotFound';
 

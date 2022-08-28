@@ -37,27 +37,27 @@ const Home = () => {
                         <h1 className='fs-1 fw-bold text-start'>COX'S BAZAR</h1>
                         <p className='text-start text-wrap'>Cox's Bazar is a town on the southeast coast of Bangladesh. It's known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Cox's Bazar lies on a coastal plain in the southeastern corner of Bangladesh. From above, the plain appears to bulge out into the Bay of Bengal.</p>
                     </div>
-                    <div style={overflowScroll}  className='mx-5 mx-md-0 bg-light w-75 w-sm-75 w-md-100 text-start rounded'>
+                    <div style={overflowScroll} className='mx-5 mx-md-0 bg-light w-75 w-sm-75 w-md-100 text-start rounded'>
                         <Form onSubmit={handleFormSubmit} className='container p-4'>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Origin</Form.Label>
-                                <Form.Control type="address" style={{fontWeight: '700'}} placeholder="Dhaka" required />
+                                <Form.Control type="address" style={{ fontWeight: '700' }} placeholder="Dhaka" required />
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="formBasicPassword">
                                 <Form.Label>Destination</Form.Label>
-                                <Form.Control type="address" style={{fontWeight: '700'}} placeholder="Cox's Bazar" required />
+                                <Form.Control type="address" style={{ fontWeight: '700' }} placeholder="Cox's Bazar" required />
                             </Form.Group>
 
                             <div className='row'>
                                 <Form.Group className="col mb-3 w-100" controlId="formBasicFrom">
                                     <Form.Label>From</Form.Label>
-                                    <Form.Control style={{fontWeight: '700'}} type="date"  required />
+                                    <Form.Control style={{ fontWeight: '700' }} type="date" required />
                                 </Form.Group>
 
                                 <Form.Group className="col mb-3 w-100" controlId="formBasicTo">
                                     <Form.Label>To</Form.Label>
-                                    <Form.Control style={{fontWeight: '700'}} type="date"  required />
+                                    <Form.Control style={{ fontWeight: '700' }} type="date" required />
                                 </Form.Group>
                             </div>
 
