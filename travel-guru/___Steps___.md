@@ -30,6 +30,7 @@ Table of Contents
 - ___images___ folder added inside the ___src___ folder
 - Modify the ___Header___ component to make easy routing
 - Install ___FontAwesomeIcons___ and use in your App
+- Modify the ___Footer___ component
 
 ---
 
