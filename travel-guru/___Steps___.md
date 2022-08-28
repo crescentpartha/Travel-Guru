@@ -27,11 +27,16 @@ Table of Contents
 
 ### Project Setup 02
 
+- ___images___ folder added inside the ___src___ folder
+- Modify the ___Header___ component to make easy routing
+- Install ___FontAwesomeIcons___ and use in your App
+
+---
+
 - Create a ___Firebase project___ and ___Register___ my app
 - Install the ___SDK___ and ___initialize Firebase___
   - Install Firebase & Firebase Setup
-- Setup ___JSON data___ in ___public___ folder and ___images___ in ___src___ folder
-- Modify the ___Header___ component to make easy routing
+- Setup ___JSON data___ in the ___public___ folder 
 
 
 
