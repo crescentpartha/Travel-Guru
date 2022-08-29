@@ -17,7 +17,13 @@ const Header = () => {
         width: '250px',
         color: 'white',
         border: '1px solid gray',
-        backgroundColor: 'rgba(0, 0, 0, 0.3)'
+        backgroundColor: 'rgba(0, 0, 0, 0.1)'
+    };
+    const searchFieldStyle2 = {
+        width: '250px',
+        color: 'black',
+        border: '1px solid lightgray',
+        backgroundColor: 'rgba(0, 0, 0, 0.0)'
     };
 
     const handleNavber = value => {
@@ -41,7 +47,7 @@ const Header = () => {
                                 <Nav className="mx-auto my-2">
                                     <Form className="">
                                         <Form.Control
-                                            style={searchFieldStyle}
+                                            style={searchFieldStyle2}
                                             type="search"
                                             placeholder="Search your Destination..."
                                             // placeholder={placeholderText}
