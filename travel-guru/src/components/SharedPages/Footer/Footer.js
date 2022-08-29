@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
             <hr className='mb-0' />
             <div>
-                <p className='mb-0 p-4'>&copy;{new Date().getFullYear()} Travel-Guru LLC All rights reserved.</p>
+                <p className='mb-0 p-4 fw-semibold'>Copyright &copy;{new Date().getFullYear()} Travel-Guru LLC All rights reserved.</p>
             </div>
         </div>
     );

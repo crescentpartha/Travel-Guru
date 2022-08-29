@@ -1,0 +1,29 @@
+.home-div {
+    margin-top: 430px;
+}
+
+@media only screen and (max-width: 1067px){
+    .home-div {
+        margin-top: 530px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .home-div {
+        margin-top: 565px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .home-div {
+        margin-top: 700px;
+    }
+}
+@media only screen and (max-width: 647px){
+    .home-div {
+        margin-top: 800px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .home-div {
+        margin-top: 850px;
+    }
+}
