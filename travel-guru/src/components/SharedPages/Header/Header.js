@@ -11,7 +11,7 @@ const Header = () => {
     //     <FontAwesomeIcon className='' icon={faMagnifyingGlass}></FontAwesomeIcon>
     //     <span>Search your Destination...</span>
     // </div>
-    const [navValue, setNavValue] = useState(false);
+    const [navValue, setNavValue] = useState(true);
 
     const searchFieldStyle = {
         width: '250px',
