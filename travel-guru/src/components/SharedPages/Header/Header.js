@@ -65,7 +65,7 @@ const Header = () => {
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#destination">Destination</Nav.Link>
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#blog">Blog</Nav.Link>
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#contact">Contact</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-light' as={Link} to="/signIn">Login</Nav.Link>
+                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
                                             </>
                                             :
                                             <>
@@ -73,7 +73,7 @@ const Header = () => {
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#destination">Destination</Nav.Link>
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#blog">Blog</Nav.Link>
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#contact">Contact</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5  btn btn-warning text-light' as={Link} to="/signIn">Login</Nav.Link>
+                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5  btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
                                             </>
                                     }
                                 </Nav>
@@ -112,7 +112,7 @@ const Header = () => {
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#destination">Destination</Nav.Link>
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#blog">Blog</Nav.Link>
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#contact">Contact</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-light' as={Link} to="/signIn">Login</Nav.Link>
+                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
                                             </>
                                             :
                                             <>
@@ -120,7 +120,7 @@ const Header = () => {
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#destination">Destination</Nav.Link>
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#blog">Blog</Nav.Link>
                                                 <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#contact">Contact</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-light' as={Link} to="/signIn">Login</Nav.Link>
+                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
                                             </>
                                     }
                                 </Nav>

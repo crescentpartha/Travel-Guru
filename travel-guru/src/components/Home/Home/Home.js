@@ -72,7 +72,7 @@ const Home = () => {
                                     </Form.Group>
                                 </div>
 
-                                <Button className='w-100 text-light fw-semibold' variant="warning" type="submit">
+                                <Button className='w-100 text-dark fw-semibold' variant="warning" type="submit">
                                     Start Booking
                                 </Button>
                             </Form>

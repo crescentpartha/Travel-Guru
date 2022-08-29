@@ -18,10 +18,10 @@ const SignIn = () => {
                             <Link className='text-warning' to='/home'>Forgot Password</Link>
                         </div>
                     </div>
-                    <Button className='rounded-0 w-100 text-light fw-semibold' variant="warning" type="submit">
+                    <Button className='rounded-0 w-100 fw-semibold mb-2' variant="warning" type="submit">
                         Login
                     </Button>
-                    <p className='my-2 fw-semibold'>Don't have an account? <Link className='text-warning fw-normal' to='/signUp'>Create an account</Link></p>
+                    <p className='mt-2 fw-semibold'>Don't have an account? <Link className='text-warning fw-normal' to='/signUp'>Create an account</Link></p>
                 </Form>
             </div>
             <div style={{ width: '500px' }} className='mx-auto mb-5 px-5'>
