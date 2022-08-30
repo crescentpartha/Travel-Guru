@@ -1,5 +1,6 @@
 import React from 'react';
 import Blog from '../Blog/Blog';
+import Map from '../Map/Map';
 
 const Blogs = () => {
     const blogs = [
@@ -51,13 +52,13 @@ const Blogs = () => {
     ];
 
     return (
-        <div className='container pt-5'>
-            <div className='pt-5 pb-4 text-start'>
-                <p className='mb-0'>252 stays Apr 13-17 3 guests</p>
-                <h2>Stay in Cox's Bazar {blogs.length}</h2>
+        <div className='container px-0 pt-5 mx-auto'>
+            <div className='pt-5 px-3 text-start'>
+                <p className='mb-0'>252 stays Apr 13-17 <span className='text-warning'>{blogs.length}</span> guests</p>
+                <h2>Stay in Cox's Bazar</h2>
             </div>
-            <div className='row'>
-                <div className='container mb-5 p-0 col-7'>
+            <div className='row m-0 mb-4 g-5 d-flex justify-content-between'>
+                <div className='container p-0 col-12 col-lg-7 col-md-12 col-sm-12'>
                     {
                         // blogsData.map(data => console.log(data))
                         blogs.map(data => <Blog
@@ -66,8 +67,8 @@ const Blogs = () => {
                         ></Blog>)
                     }
                 </div>
-                <div className='col-5'>
-                    <p>Map</p>
+                <div className='px-2 mt-2 col-12 col-lg-5 col-md-12 col-sm-12'>
+                    <Map></Map>
                 </div>
             </div>
         </div>
