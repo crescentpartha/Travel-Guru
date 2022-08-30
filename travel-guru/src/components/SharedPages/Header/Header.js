@@ -1,17 +1,27 @@
-import React, { useState } from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import React, { useEffect, useState } from 'react';
 import { Container, Form, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../../../images/logo-white.png';
 import logo2 from '../../../images/logo-black.png';
 
 const Header = () => {
-    // const placeholderText = <div>
-    //     <FontAwesomeIcon className='' icon={faMagnifyingGlass}></FontAwesomeIcon>
-    //     <span>Search your Destination...</span>
-    // </div>
     const [navValue, setNavValue] = useState(true);
+    const location = useLocation();
+
+    // Dynamically > Conditional Rendering for Header component
+    useEffect( () => {
+        // console.log(location);
+        // console.log(location.pathname);
+        if (location.pathname === '/home'){
+            setNavValue(false);
+        }
+        else if (location.pathname === '/'){
+            setNavValue(false);
+        }
+        else {
+            setNavValue(true);
+        }
+    },[location]);
 
     const searchFieldStyle = {
         width: '250px',
@@ -26,17 +36,13 @@ const Header = () => {
         backgroundColor: 'rgba(0, 0, 0, 0.0)'
     };
 
-    const handleNavber = value => {
-        setNavValue(value);
-    }
-
     return (
         <div>
             {
                 navValue ?
                     <Navbar collapseOnSelect expand="lg" sticky='top' bg="none" variant="light">
                         <Container className='text-primary'>
-                            <Navbar.Brand onClick={() => handleNavber(false)} as={Link} to="/home">
+                            <Navbar.Brand as={Link} to="/home">
                                 {
                                     navValue ? <img src={logo2} alt="" width={150} height={50} />
                                         :
@@ -50,8 +56,6 @@ const Header = () => {
                                             style={searchFieldStyle2}
                                             type="search"
                                             placeholder="Search your Destination..."
-                                            // placeholder={placeholderText}
-                                            // placeholder="&#xf0e0; Search"
                                             className="mx-auto "
                                             aria-label="Search"
                                         />
@@ -61,19 +65,19 @@ const Header = () => {
                                     {
                                         navValue ?
                                             <>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#news">News</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#destination">Destination</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#blog">Blog</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#contact">Contact</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
+                                                <Nav.Link className='mx-2 text-dark' as={Link} to="home#news">News</Nav.Link>
+                                                <Nav.Link className='mx-2 text-dark' as={Link} to="home#destination">Destination</Nav.Link>
+                                                <Nav.Link className='mx-2 text-dark' as={Link} to="home#blog">Blog</Nav.Link>
+                                                <Nav.Link className='mx-2 text-dark' as={Link} to="home#contact">Contact</Nav.Link>
+                                                <Nav.Link className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
                                             </>
                                             :
                                             <>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#news">News</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#destination">Destination</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#blog">Blog</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#contact">Contact</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5  btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
+                                                <Nav.Link className='mx-2 text-light' as={Link} to="home#news">News</Nav.Link>
+                                                <Nav.Link className='mx-2 text-light' as={Link} to="home#destination">Destination</Nav.Link>
+                                                <Nav.Link className='mx-2 text-light' as={Link} to="home#blog">Blog</Nav.Link>
+                                                <Nav.Link className='mx-2 text-light' as={Link} to="home#contact">Contact</Nav.Link>
+                                                <Nav.Link className='mx-5  btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
                                             </>
                                     }
                                 </Nav>
@@ -83,7 +87,7 @@ const Header = () => {
                     :
                     <Navbar collapseOnSelect expand="lg" sticky='top' bg="none" variant="dark">
                         <Container className='text-primary'>
-                            <Navbar.Brand onClick={() => handleNavber(false)} as={Link} to="/home">
+                            <Navbar.Brand as={Link} to="/home">
                                 {
                                     navValue ? <img src={logo2} alt="" width={150} height={50} />
                                         :
@@ -97,8 +101,6 @@ const Header = () => {
                                             style={searchFieldStyle}
                                             type="search"
                                             placeholder="Search your Destination..."
-                                            // placeholder={placeholderText}
-                                            // placeholder="&#xf0e0; Search"
                                             className="mx-auto "
                                             aria-label="Search"
                                         />
@@ -108,19 +110,19 @@ const Header = () => {
                                     {
                                         navValue ?
                                             <>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#news">News</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#destination">Destination</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#blog">Blog</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-dark' as={Link} to="home#contact">Contact</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
+                                                <Nav.Link className='mx-2 text-dark' as={Link} to="home#news">News</Nav.Link>
+                                                <Nav.Link className='mx-2 text-dark' as={Link} to="home#destination">Destination</Nav.Link>
+                                                <Nav.Link className='mx-2 text-dark' as={Link} to="home#blog">Blog</Nav.Link>
+                                                <Nav.Link className='mx-2 text-dark' as={Link} to="home#contact">Contact</Nav.Link>
+                                                <Nav.Link className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
                                             </>
                                             :
                                             <>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#news">News</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#destination">Destination</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#blog">Blog</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(false)} className='mx-2 text-light' as={Link} to="home#contact">Contact</Nav.Link>
-                                                <Nav.Link onClick={() => handleNavber(true)} className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
+                                                <Nav.Link className='mx-2 text-light' as={Link} to="home#news">News</Nav.Link>
+                                                <Nav.Link className='mx-2 text-light' as={Link} to="home#destination">Destination</Nav.Link>
+                                                <Nav.Link className='mx-2 text-light' as={Link} to="home#blog">Blog</Nav.Link>
+                                                <Nav.Link className='mx-2 text-light' as={Link} to="home#contact">Contact</Nav.Link>
+                                                <Nav.Link className='mx-5 btn btn-warning text-dark' as={Link} to="/signIn">Login</Nav.Link>
                                             </>
                                     }
                                 </Nav>

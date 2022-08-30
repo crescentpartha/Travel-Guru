@@ -6,7 +6,7 @@ const NotFound = () => {
     return (
         <div className='m-5'>
             <img className='img-fluid mx-auto d-block' src={notFound} alt="Not Found" />
-            <Link to='/signIn' className='fw-semibold btn btn-outline-warning' type="Link">Back to Login</Link>
+            <Link to='/home' className='fw-semibold btn btn-outline-warning' type="Link">Back to Homepage</Link>
         </div>
     );
 };
