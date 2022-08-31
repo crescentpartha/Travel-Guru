@@ -6,11 +6,11 @@ const Blog = ({ data }) => {
     const { name, picture, guests, bedrooms, beds, baths, facilities, cancellation, rating, price, total } = data;
     // console.log(data);
     return (
-        <div className='row m-0 gy-4'>
-            <div className='col-12 col-md-12 col-lg-5'>
+        <div className='row m-0 my-4 g-4 shadow-sm'>
+            <div className='col-12 mt-0 px-0 col-md-12 col-lg-5'>
                 <img className='w-100 h-100' src={picture} alt={name} />
             </div>
-            <div className='d-flex flex-column align-items-start justify-content-between col-12 col-md-12 col-lg-7'>
+            <div className='d-flex mt-0 p-3 flex-column align-items-start justify-content-between col-12 col-md-12 col-lg-7'>
                 <h4 className='text-start mb-0'>{name}</h4>
                 <div className='text-start w-100 my-2'>
                     <p className='d-flex align-items-center justify-content-between mb-0'>

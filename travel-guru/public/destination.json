@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Maui",
+        "img": "https://i.ibb.co/vkctfQz/maui-hawaii.jpg",
+        "rank": "1 in World's Best Places to Visit",
+        "description": "Whether you're driving along the Road to Hana, enjoying a bird's-eye view of Maui's lush coastline from a helicopter, snorkeling with sea turtles or simply relaxing on white or black sand beaches, you'll find that this Hawaiian island is unlike any other tropical destination. Don't miss a chance to visit Haleakala National Park, which is home to one of the world's largest dormant volcanic craters. You should also attend a luau for a dose of local culture and a taste of Hawaiian specialties like poi, poke and mahimahi."
+    },
+    {
+        "id": 2,
+        "name": "Paris",
+        "img": "https://i.ibb.co/jVnLg66/paris-france.jpg",
+        "rank": "2 in World's Best Places to Visit",
+        "description": "The magnetic City of Light draws visitors from around the globe who come to see iconic attractions like the Eiffel Tower, the Louvre and the Arc de Triomphe. But what travelers really fall in love with are the city's quaint cafes, vibrant markets, trendy shopping districts and unmistakable je ne sais quoi. Get lost wandering along the charming cobblestone streets, or grab a croissant and relax on the banks of the Seine for hours. If you're up for a quick daytrip, head about 15 miles southwest of the city center to the Palace of Versailles, which offers guided and self-guided tours of the estate."
+    },
+    {
+        "id": 3,
+        "name": "Rome",
+        "img": "https://i.ibb.co/WzT7b5C/rome-italy.jpg",
+        "rank": "3 in World's Best Places to Visit",
+        "description": "When you visit the Eternal City, prepare to cross a few must-see attractions - including the Colosseum, the Trevi Fountain and the Pantheon - off of your bucket list. Travelers can see additional treasures, such as St. Peter's Basilica and the Sistine Chapel, in nearby Vatican City. Escape the tourist crowds by taking a twilight stroll along the cobblestone streets of Trastevere, or head to Mercato Centrale Roma to sample local delicacies like gelato and pizza. Before leaving, peruse some of Rome's lesser-known museums, art galleries and boutiques."
+    },
+    {
+        "id": 4,
+        "name": "Machu Picchu",
+        "img": "https://i.ibb.co/pf4c2cY/machu-picchu-peru.jpg",
+        "rank": "4 in World's Best Places to Visit",
+        "description": "A visit to the 'Lost City of the Incas' is not for the faint of heart, but it is often described as a life-changing experience (once you acclimate to the altitude). While the four-day hike along the Inca Trail is challenging, arriving at the Peruvian site during sunrise is well worth the effort, according to past travelers. If you're not up for the trek, you can also hop on a PeruRail train to the mountain base for an easier route to the top."
+    }
+]

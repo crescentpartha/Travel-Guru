@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Travel News, Dubai",
+        "title": "UAE to soon launch 5-year multiple-entry tourist visa and more",
+        "img": "https://i.ibb.co/Kz9DMv8/Dubai.webp",
+        "description": "It's a double celebration for fans of Dubai as the UAE is planning to launch its new five-year multiple-entry visa very soon. Also, come October 30, Emirates airlines will start its new Airbus A380 service from Bengaluru to Dubai. The new service is expected to increase the number of business and leisure flyers to Dubai to shoot up. Dubai saw a tremendous increase in the number of Indian visitors in the first half of this year.",
+        "paper": "TIMESOFINDIA.COM"
+    },
+    {
+        "id": 2,
+        "name": "Travel News, Delhi",
+        "title": "Man claims ownership of historic Qutub Minar complex",
+        "img": "https://i.ibb.co/g6X7xtH/Delhi.webp",
+        "description": "In his plea, Kunwar Mahender Dhwaj Prasad Singh has said that the land and complex where the historical Qutub Minar stands today belongs to his family. He said that the land is owned by the Beswan Family and heir of Raja Rohini Raman Dhawaj Prasad Singh and descendants of Raja Nand Ram, who died in 1695.",
+        "paper": "TNN"
+    },
+    {
+        "id": 3,
+        "name": "Travel News, Kerala",
+        "title": "Are you ready for the annual Champions Boat League 2022?",
+        "img": "https://i.ibb.co/yFL6xt7/Kerala.webp",
+        "description": "Every year, for the duration of almost three months, Kerala's tranquil backwaters turn into venues of some of the most incredible sights you will ever see. We are talking about the annual Champions Boat League, wherein various teams will take part in the snake boat race. The event is as grand as any traditional festival in Kerala.",
+        "paper": "TIMESOFINDIA.COM"
+    },
+    {
+        "id": 4,
+        "name": "Travel News, Indonesia",
+        "title": "Indonesia to impose USD 252 Komodo Island entry fee from next year",
+        "img": "https://i.ibb.co/xsPGyWB/Indonesia.webp",
+        "description": "As per the latest reports, the annual membership fee of 3.75 million rupiah ($252) will be imposed from January 2023 instead. This was recently informed by Gusti Hendriyani, spokesperson for the Tourism and Creative Economy Ministry.",
+        "paper": "TIMESOFINDIA.COM"
+    },
+    {
+        "id": 5,
+        "name": "Travel News, Hong Kong",
+        "title": "Hong Kong: Hotel quarantine reduced to 3 days for inbound travellers",
+        "img": "https://i.ibb.co/YjfYC9f/Hong-Kong.webp",
+        "description": "As per the latest reports, the updated measure will come into force from Friday. This was recently announced by the city's leader, John Lee, while he was attending a press conference. However, arrivals will be required to self monitor for a further four days, when they will not be allowed to enter premises such as restaurants and bars.",
+        "paper": "TIMESOFINDIA.COM"
+    },
+    {
+        "id": 6,
+        "name": "Travel News, Myanmar",
+        "title": "Myanmar's new guidelines for tourist visa applications",
+        "img": "https://i.ibb.co/DVcqGmw/Myanmars.webp",
+        "description": "Myanmar has recently announced its new guidelines for tourist visa applications. As per the new terms and conditions, all those applying for a Myanmar visa will need to provide a full vaccination certificate, along with a recent colour photo taken within three months, and a passport that is valid for six months from the time of visa application.",
+        "paper": "TIMESOFINDIA.COM"
+    }
+]
