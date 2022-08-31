@@ -5,6 +5,7 @@ import backImage from '../../../images/Rectangle1.png'
 import Blogs from '../Blogs/Blogs';
 import Sliders from '../Sliders/Sliders';
 import Travels from '../Travels/Travels';
+import Destinations from '../Destinations/Destinations';
 // import Header from '../../SharedPages/Header/Header';
 
 const Home = () => {
@@ -87,10 +88,14 @@ const Home = () => {
 
             </div>
             <div className='mt-5 pt-5'>
+                <Destinations></Destinations>
+            </div>
+            <div className='mt-5'>
                 <Travels></Travels>
             </div>
             <Blogs></Blogs>
             <div className='my-5' id='contact'>
+                <h2 className='text-start ms-5 ps-5 mb-5 text-uppercase'>Slide Show</h2>
                 <Sliders></Sliders>
             </div>
         </div>

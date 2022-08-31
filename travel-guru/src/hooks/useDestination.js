@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 
 const useDestination = () => {
-    const [destination, setDestination] = useState([]);
+    const [destinations, setDestinations] = useState([]);
 
     useEffect( () => {
         fetch('destination.json')
         .then(res => res.json())
-        .then(data => setDestination(data));
+        .then(data => setDestinations(data));
     }, []);
 
-    return [destination, setDestination];
+    return [destinations, setDestinations];
 }
 
 export default useDestination;
