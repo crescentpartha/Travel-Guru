@@ -13,6 +13,9 @@ Table of Contents
   - [Opacity control for background Image](#opacity-control-for-background-image)
   - [Dynamically > Conditional Rendering for Header component](#dynamically--conditional-rendering-for-header-component)
   - [Manually > Conditional Rendering for Header component](#manually--conditional-rendering-for-header-component)
+  - [React Slider Library](#react-slider-library)
+  - [Dynamic Size Free Images Resources](#dynamic-size-free-images-resources)
+  - [react-router-hash-link](#react-router-hash-link)
 
 # Travel-Guru
 
@@ -431,4 +434,56 @@ const Header = () => {
 
 export default Header;
 ```
+
+## React Slider Library
+
+- [Swiperjs.com](https://swiperjs.com/demos#effect-coverflow "Official Documentation of Swiperjs.com") | [Example](https://github.com/crescentpartha/Travel-Guru/blob/main/travel-guru/src/components/Home/Sliders/Sliders.js "Sliders.js - Travel Guru") | [Video Tutorial](https://www.youtube.com/watch?v=l4kFO6VQPfA "Tutorial for Official SwiperJs React Carousel")
+- [React Slick](https://react-slick.neostack.com/docs/example/auto-play "Official Documentation of React Slick") | [Example](https://github.com/crescentpartha/Travel-Guru/blob/main/travel-guru/src/components/SharedPages/Header/Header.js "Header.js - Travel Guru")
+
+## Dynamic Size Free Images Resources
+
+- [Lorem Picsum](https://picsum.photos/ "The Lorem Ipsum for photos | Just add your desired image size (width & height) after our URL, and you'll get a random image | Get a specific image by adding `/id/{image}` to the start of the url.") - The Lorem Ipsum for photos | [Video Tutorial](https://www.youtube.com/watch?v=l4kFO6VQPfA "Tutorial for Official SwiperJs React Carousel")
+
+## react-router-hash-link
+
+-  [react-router-hash-link](https://www.npmjs.com/package/react-router-hash-link "react-router-hash-link Documentation") | [Video Tutorial](https://www.youtube.com/watch?v=bdOHxlrS5UM "How To Navigate Within The Same Page | In-Page Navigation Tutorial in React")
+
+⫸ `Install react-router-hash-link`
+
+``` Terminal
+npm install --save react-router-hash-link
+```
+
+⫸ `<HashLink> from react-router-hash-link`
+
+``` JavaScript
+import { HashLink as Link } from 'react-router-hash-link';
+
+/* ------------------------------------------------------- */
+
+<Link smooth to="/home#services">Services</Link>;
+
+/* ------------------------------------------------------- */
+
+<div id='services'>
+    <h2>Services</h2>
+</div>
+```
+
+⫸ `<NavHashLink> from react-router-hash-link`
+
+``` JavaScript
+import { HashLink as Link } from 'react-router-hash-link';
+
+/* ------------------------------------------------------- */
+
+<Nav.Link className='mx-2 text-dark' as={Link} smooth to="home#services">Services</Nav.Link>
+
+/* ------------------------------------------------------- */
+
+<div id='services'>
+    <h2>Services</h2>
+</div>
+```
+
 

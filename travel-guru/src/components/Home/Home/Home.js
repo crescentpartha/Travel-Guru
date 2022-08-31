@@ -86,7 +86,7 @@ const Home = () => {
 
             </div>
             <Blogs></Blogs>
-            <div className='my-5'>
+            <div className='my-5' id='contact'>
                 <Sliders></Sliders>
             </div>
         </div>

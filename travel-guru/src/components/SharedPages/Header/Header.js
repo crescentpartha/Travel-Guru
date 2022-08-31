@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Form, Nav, Navbar } from 'react-bootstrap';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../../images/logo-white.png';
 import logo2 from '../../../images/logo-black.png';
 
