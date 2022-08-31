@@ -4,6 +4,7 @@ import { Button, Form } from 'react-bootstrap';
 import backImage from '../../../images/Rectangle1.png'
 import Blogs from '../Blogs/Blogs';
 import Sliders from '../Sliders/Sliders';
+import Travels from '../Travels/Travels';
 // import Header from '../../SharedPages/Header/Header';
 
 const Home = () => {
@@ -84,6 +85,9 @@ const Home = () => {
             </div>
             <div className='home-div'>
 
+            </div>
+            <div className='mt-5 pt-5'>
+                <Travels></Travels>
             </div>
             <Blogs></Blogs>
             <div className='my-5' id='contact'>

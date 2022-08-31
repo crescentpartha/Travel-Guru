@@ -52,7 +52,7 @@ const Blogs = () => {
     ];
 
     return (
-        <div id='blog' className='container px-0 pt-5 mx-auto'>
+        <div id='blog' className='container px-0 mx-auto'>
             <div className='pt-5 px-3 text-start'>
                 <p className='mb-0'>252 stays Apr 13-17 <span className='text-warning'>{blogs.length}</span> guests</p>
                 <h2>Stay in Cox's Bazar</h2>
