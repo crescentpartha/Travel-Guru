@@ -85,8 +85,10 @@ const Home = () => {
             <div className='home-div'>
 
             </div>
-            {/* <Sliders></Sliders> */}
             <Blogs></Blogs>
+            <div className='my-5'>
+                <Sliders></Sliders>
+            </div>
         </div>
     );
 };
